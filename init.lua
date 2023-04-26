@@ -405,19 +405,28 @@ end
 --  Add any additional override configuration in the following tables. They will be passed to
 --  the `settings` field of the server config. You must look up that documentation yourself.
 local servers = {
-  -- clangd = {},
-  -- gopls = {},
-  pyright = {
-    python = {
-      analysis = {
-        autoSearchPaths = true,
-        useLibraryCodeForTypes = true,
-      },
-    },
-  },
-  -- rust_analyzer = {},
-  -- tsserver = {},
+  arduino_language_server = {},
+  bashls = {},
+  csharp_ls ={},
+  clangd = {},
+  neocmake = {},
+  cssls = {},
+  dockerls = {},
+  docker_compose_language_service = {},
+  html = {},
+  jsonls = {},
+  jdtls = {},
+  tsserver = {},
+  kotlin_language_server = {},
+  texlab = {},
+  remark_ls = {},
+  sqlls = {},
+  rust_analyzer = {},
+  wgsl_analyzer = {},
+  lemminx = {},
+  yamlls = {},
 
+  pyright = {},
   lua_ls = {
     Lua = {
       workspace = { checkThirdParty = false },
