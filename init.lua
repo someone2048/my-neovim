@@ -127,7 +127,7 @@ require('lazy').setup({
       options = {
         icons_enabled = false,
         theme = 'onedark',
-        component_separators = '|',
+        component_separators = '│',
         section_separators = '',
       },
     },
@@ -138,7 +138,8 @@ require('lazy').setup({
     -- Enable `lukas-reineke/indent-blankline.nvim`
     -- See `:help indent_blankline.txt`
     opts = {
-      char = '┊',
+      char = '│',
+        section_separators = '',
       show_trailing_blankline_indent = false,
     },
   },

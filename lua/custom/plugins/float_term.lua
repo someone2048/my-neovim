@@ -8,7 +8,7 @@ return {
     vim.cmd([[ let g:floaterm_autoclose = 1]])
     vim.keymap.set('n', '<F12>', ":FloatermToggle<CR>", { desc = "Toggle Terminal", silent = true})
     vim.keymap.set('t', '<F12>', "<C-\\><C-n>:FloatermHide<CR>", { desc = "Toggle Terminal",  silent = true})
-    vim.keymap.set('t', '<esc>', "<C-\\><C-n>:FloatermHide<CR>")
+    vim.keymap.set('t', '<esc>', "<C-\\><C-n>:FloatermHide<CR>", { desc = "Hide Terminal",  silent = true})
     vim.api.nvim_command("autocmd User FloatermOpen setlocal nonumber")
   end
 }
