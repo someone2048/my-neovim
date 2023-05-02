@@ -1,4 +1,4 @@
-apt install xclip &&
+# apt install xclip &&
 apt install npm &&
 apt install cargo &&
 apt install ripgrep &&
