@@ -7,6 +7,7 @@ return {
       open_mapping = [[<F12>]],
       auto_scroll = true,
       direction = 'horizontal',
+      shell = '/bin/bash'
     }
 
     local Terminal  = require('toggleterm.terminal').Terminal
