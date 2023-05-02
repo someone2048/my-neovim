@@ -372,7 +372,6 @@ end
 local servers = {
   arduino_language_server = {},
   bashls = {},
-  csharp_ls ={},
   clangd = {},
   neocmake = {},
   cssls = {},
