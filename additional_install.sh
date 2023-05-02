@@ -1,3 +1,6 @@
+# curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim.appimage &&
+# chmod u+x nvim.appimage && 
+# ./nvim.appimage --appimage-extract &&
 sudo apt install xclip &&
 sudo apt install npm &&
 sudo apt install cargo &&
