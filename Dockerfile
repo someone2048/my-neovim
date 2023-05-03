@@ -1,5 +1,6 @@
-FROM ubuntu:22.04
+FROM debian:stable
 
+ENV DEBAIN_FRONTEND=noninteractive
 RUN apt update -y && apt upgrade -y
 RUN apt install git curl gcc make npm nodejs unzip cargo ripgrep -y
 RUN npm install remark -gy
@@ -12,4 +13,3 @@ RUN LAZYGIT_VERSION=$(curl -s "https://api.github.com/repos/jesseduffield/lazygi
     tar xf lazygit.tar.gz lazygit && install lazygit /usr/local/bin
 
 WORKDIR /project_root
-CMD [ "/usr/bin/nim", "." ]

@@ -372,7 +372,7 @@ end
 local servers = {
   bashls = {},
   clangd = {},
-  neocmake = {},
+  cmake = {},
   cssls = {},
   dockerls = {},
   docker_compose_language_service = {},
